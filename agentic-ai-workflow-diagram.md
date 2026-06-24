@@ -11,15 +11,25 @@ flowchart TD
     E --> F[Draft Output]
     F --> G[Validation Layer]
     G --> H{Human Approval Needed?}
+
     H -->|Yes| I[Human Review]
     H -->|No| J[Final Output]
+
     I --> K{Approved?}
     K -->|Yes| J
     K -->|Edit Needed| F
     K -->|Rejected| L[Stop / Escalate]
+
     J --> M[Logging and Monitoring]
 ```
 
 ## Key Principle
 
-Agentic AI should be designed with clear roles, limited tool access, validation, monitoring, and human approval for sensitive workflows.
+Agentic AI should be designed with:
+
+- Clear agent roles
+- Limited tool access
+- Validation before action
+- Monitoring and logging
+- Human approval for sensitive workflows
+- Escalation when confidence is low
