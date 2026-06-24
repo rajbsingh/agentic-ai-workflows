@@ -7,6 +7,7 @@ A collection of practical agentic AI workflow patterns for business, legal, rese
 - [Legal Document Review Agent](legal-document-review-agent.md)
 - [Research Agent Workflow](research-agent-workflow.md)
 - [Customer Support Agent Workflow](customer-support-agent-workflow.md)
+- [Agentic AI Workflow Diagram](agentic-ai-workflow-diagram.md)
 ---
 
 ## Purpose
