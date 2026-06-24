@@ -1,7 +1,12 @@
 # Agentic AI Workflows
 
 A collection of practical agentic AI workflow patterns for business, legal, research, operations, and enterprise automation.
+---
+## Workflow Documents
 
+- [Legal Document Review Agent](legal-document-review-agent.md)
+- [Research Agent Workflow](research-agent-workflow.md)
+- [Customer Support Agent Workflow](customer-support-agent-workflow.md)
 ---
 
 ## Purpose
